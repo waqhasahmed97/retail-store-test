@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'your-docker-image-name'   // Replace with your desired image name
-        GIT_REPO_URL = 'https://github.com/yourusername/your-repo.git'  // Replace with your GitHub repo URL
+        DOCKER_IMAGE = 'retail-store-website-img'   // Replace with your desired image name
+        GIT_REPO_URL = 'https://github.com/waqhasahmed97/retail-store-test.git'  // Replace with your GitHub repo URL
         DOCKER_REGISTRY = 'dockerhub'    // Set this to your Docker registry (optional)
         DOCKER_CREDENTIALS_ID = 'dockerhub-credentials'  // ID of the Docker Hub credentials stored in Jenkins
     }
